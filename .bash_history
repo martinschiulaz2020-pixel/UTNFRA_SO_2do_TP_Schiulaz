@@ -201,3 +201,26 @@ cd ~/UTNFRA_SO_2do_TP_Schiulaz
 cp -r ~/UTN-FRA_SO_Examenes/202406 .
 cp -r ~/RTA_Examen_20260624 .
 history -a
+cp ~/.bash_history .
+git add .
+git commit -m "Entrega final TP"
+git push
+ls -la ~/RTA_Examen_20260624
+cd ~/UTNFRA_SO_2do_TP_Schiulaz
+ls -la
+cd ~/UTNFRA_SO_2do_TP_Schiulaz
+ls -la
+ls -la RTA_Examen_20260624
+ls -l /usr/local/bin/*AltaUser-Groups.sh
+cp /usr/local/bin/SchiulazAltaUser-Groups.sh ~/UTNFRA_SO_2do_TP_Schiulaz/RTA_Examen_20260624/
+sudo apt install tree -y
+tree -L 2 ~/UTNFRA_SO_2do_TP_Schiulaz
+cd ~/UTNFRA_SO_2do_TP_Schiulaz
+rm Punto_A.sh
+rm Punto_B.sh
+rm Punto_C.sh
+rm Punto_D.sh
+rm -rf RTA_Examen_20260624/202406
+tree -L 2 ~/UTNFRA_SO_2do_TP_Schiulaz
+cd ~/UTNFRA_SO_2do_TP_Schiulaz
+history -a
